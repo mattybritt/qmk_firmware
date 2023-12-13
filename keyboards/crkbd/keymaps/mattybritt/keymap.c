@@ -8,10 +8,10 @@ enum layers {
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-	[_BASE] = LAYOUT_split_3x6_3(KC_TAB, KC_QUOT, KC_COMM, KC_DOT, KC_P, KC_Y,                      KC_F, KC_G, KC_C, KC_R, KC_L, KC_SLSH,
-                             KC_ESC, KC_A, LALT_T(KC_O), LSFT_T(KC_E), LCTL_T(KC_U), KC_I,      KC_D, RCTL_T(KC_H), RSFT_T(KC_T), LALT_T(KC_N), KC_S, KC_BSLS,
-                             MO(3), KC_SCLN, KC_Q, KC_J, KC_K, KC_X,                            KC_B, KC_M, KC_W, KC_V, KC_Z, MO(3),
-                                                     KC_BSPC, KC_BSPC, MO(2),          MO(1), KC_ENT, KC_SPC),
+	[_BASE] = LAYOUT_split_3x6_3(KC_TAB, KC_QUOT, KC_COMM, KC_DOT, KC_P, KC_Y,                                  KC_F, KC_G, KC_C, KC_R, KC_L, KC_SLSH,
+                             KC_ESC, KC_A, KC_O, KC_E, KC_U, KC_I,                                              KC_D, KC_H, KC_T, KC_N, KC_S, KC_BSLS,
+                             MO(3), KC_SCLN, LALT_T(KC_Q), LSFT_T(KC_J), LCTL_T(KC_K), KC_X,                    KC_B, RCTL_T(KC_M), RSFT_T(KC_W), LALT_T(KC_V), KC_Z, MO(3),
+                                                                    MO(2), KC_BSPC, KC_BSPC,      KC_ENT, KC_SPC, MO(1),
 
 
 
