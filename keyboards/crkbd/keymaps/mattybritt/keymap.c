@@ -11,7 +11,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[_BASE] = LAYOUT_split_3x6_3(KC_TAB, KC_QUOT, KC_COMM, KC_DOT, KC_P, KC_Y,                                  KC_F, KC_G, KC_C, KC_R, KC_L, KC_SLSH,
                              KC_ESC, KC_A, KC_O, KC_E, KC_U, KC_I,                                              KC_D, KC_H, KC_T, KC_N, KC_S, KC_BSLS,
                              MO(3), KC_SCLN, LALT_T(KC_Q), LSFT_T(KC_J), LCTL_T(KC_K), KC_X,                    KC_B, RCTL_T(KC_M), RSFT_T(KC_W), LALT_T(KC_V), KC_Z, MO(3),
-                                                                    MO(2), KC_BSPC, KC_BSPC,      KC_ENT, KC_SPC, MO(1)),
+                                                                         MO(2), KC_DEL, KC_BSPC,      KC_SPC, KC_ENT, MO(1)),
 
 
 
